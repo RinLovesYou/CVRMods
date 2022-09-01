@@ -32,6 +32,7 @@ namespace ProtonMediaControlFix
                 Log.Error(e);
                 return;
             }
+            Log.Msg("Success!");
         }
     }
 
