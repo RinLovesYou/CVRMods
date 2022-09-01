@@ -7,7 +7,7 @@ ChilloutVR mods by RinLovesYou
 * install [playerctl](https://github.com/altdesktop/playerctl)
 * install [playerctl-tcp](https://github.com/RinLovesYou/playerctl-tcp)
 
-`playerctl-tcp` is an incredibly lightweight little TCP socket made for this project. It will need to be running while you run the game for Media Control to function.
+`playerctl-tcp` is a lightweight little TCP socket made for this project. It will need to be running while you run the game for Media Control to function.
 
 I recommend creation a user-space service for it.<br/>
 user-space services are stored at `~/.config/systemd/user/`
