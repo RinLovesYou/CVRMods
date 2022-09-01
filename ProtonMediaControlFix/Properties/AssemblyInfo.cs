@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using MelonLoader;
 using ProtonMediaControlFix;
@@ -38,3 +39,5 @@ using ProtonMediaControlFix;
 
 [assembly: MelonInfo(typeof(MediaControlFixMod), "ProtonMediaControlFix", "1.0.0", "RinLovesYou")]
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
+[assembly: MelonColor(ConsoleColor.Yellow)]
+[assembly: MelonAuthorColor(ConsoleColor.Yellow)]

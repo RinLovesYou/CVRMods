@@ -38,11 +38,7 @@ namespace ProtonMediaControlFix
     [HarmonyPatch(typeof(MediaControls), "MediaActionPlay")]
     internal class PlayPatch
     {
-        public static void Prefix()
-        {
-            Log.Msg("Pausing/Playing on Linux!");
-            Playerctl.PlayPause();
-        }
+        public static void Prefix() => Playerctl.PlayPause();
     }
 
     [HarmonyPatch(typeof(MediaControls), "MediaActionPrev")]
