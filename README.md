@@ -30,3 +30,5 @@ WantedBy=multi-user.target
 You can then enable and start it with `systemctl --user enable playerctl-tcp` and `systemctl --user start playerctl-tcp`, assuming you saved the above as `playerctl-tcp.service`
 
 Now the socket will always start when you login, and the media control buttons in CVR should work!
+
+Alternatively, you can manually run the socket before you start the game.
