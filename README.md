@@ -9,7 +9,7 @@ ChilloutVR mods by RinLovesYou
 
 `playerctl-tcp` is a lightweight little TCP socket made for this project. It will need to be running while you run the game for Media Control to function.
 
-I recommend creation a user-space service for it.<br/>
+I recommend creating a user-space service for it.<br/>
 user-space services are stored at `~/.config/systemd/user/`
 
 Mine looks something like this
