@@ -24,7 +24,7 @@ ExecStart=/home/sarah/go/bin/playerctl-tcp
 Restart=always
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
 ```
 
 You can then enable and start it with `systemctl --user enable playerctl-tcp` and `systemctl --user start playerctl-tcp`, assuming you saved the above as `playerctl-tcp.service`
