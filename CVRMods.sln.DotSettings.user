@@ -19,6 +19,7 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fsarah_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FChilloutVR_002FMelonLoader_002FMonoMod_002ERuntimeDetour_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fsarah_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FChilloutVR_002FMelonLoader_002FMonoMod_002EUtils_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fsarah_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FChilloutVR_002FMelonLoader_002FTomlet_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fsarah_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FChilloutVR_002FMods_002FNotificationAPI_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/home/sarah/.steam/steam/steamapps/common/ChilloutVR/ChilloutVR_Data/Managed/Assembly-CSharp.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

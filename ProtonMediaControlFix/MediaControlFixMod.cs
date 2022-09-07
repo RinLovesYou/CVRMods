@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Threading.Tasks;
+using System.Timers;
 using ABI_RC.Core.InteractionSystem;
 using ABI_RC.Core.Newton.Engine;
 using HarmonyLib;
@@ -18,6 +21,10 @@ namespace ProtonMediaControlFix
 
         public static MelonPreferences_Entry<int> PlayerCtlPort =
             MyPreferenceCategory.CreateEntry("Playerctl_Port", 8080);
+        
+        private static DateTime QueryTime = DateTime.Now;
+
+        public static Queue<Action> Dispatcher = new Queue<Action>();
 
         public override void OnApplicationStart()
         {
@@ -33,6 +40,15 @@ namespace ProtonMediaControlFix
                 return;
             }
             Log.Msg("Success!");
+
+            Task.Run(Playerctl.Playing);
+        }
+
+        public override void OnUpdate()
+        {
+            if (Dispatcher.Count == 0) return;
+
+            Dispatcher.Dequeue()();
         }
     }
 
