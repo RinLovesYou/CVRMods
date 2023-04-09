@@ -58,8 +58,6 @@ namespace ModLoadSeparator
                 }
 
                 string modName = file.Split('\\').Last().Replace(".dll", "");
-
-                MyLogger.Msg($"Loaded {modName}!");
             }
 
         }
