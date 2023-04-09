@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\scoop\apps\steam\nightly-20230211\steamapps\common\ChilloutVR\MelonLoader\net35\MelonLoader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
