@@ -18,7 +18,7 @@ namespace ModLoadSeparator
 
         internal static string ModsPath = $"{Directory.GetCurrentDirectory()}/Mods";
 
-        public override void OnPreInitialization()
+        public override void OnApplicationEarlyStart()
         {
             if (!Directory.Exists("Mods/Desktop"))
                 Directory.CreateDirectory("Mods/Desktop");
