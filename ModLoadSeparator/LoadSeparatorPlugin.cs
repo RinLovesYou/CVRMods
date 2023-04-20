@@ -4,7 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 
-[assembly: MelonInfo(typeof(ModLoadSeparator.ModLoadSeparator), "ModLoadSeparator", "1.0.0", "RinLovesYou")]
+[assembly: MelonInfo(typeof(ModLoadSeparator.ModLoadSeparator), "ModLoadSeparator", "1.0.1", "RinLovesYou")]
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
 [assembly: MelonAdditionalCredits("Hordini")]
 
